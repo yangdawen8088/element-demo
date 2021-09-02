@@ -38,17 +38,14 @@
       </el-form-item>
     </el-form>
     <br /><br />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <router-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 export default {
   name: "app",
-  components: {
-    HelloWorld
-  },
   data() {
     return {
       data: {
